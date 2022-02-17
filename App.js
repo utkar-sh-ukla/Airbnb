@@ -13,11 +13,14 @@ import {
 } from 'react-native';
 import SearchResultScreen from './src/screens/SearchResults';
 import DestinationSearchScreen from './src/screens/DestinationSearch';
+import GuestsScreen from './src/screens/Guests';
+
 const App: () => Node = () => {
   return (
     <SafeAreaView >
       {/* <SearchResultScreen /> */}
-      <DestinationSearchScreen />
+      {/* <DestinationSearchScreen /> */}
+      <GuestsScreen />
     </SafeAreaView>
   );
 };
