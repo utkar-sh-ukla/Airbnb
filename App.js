@@ -7,18 +7,16 @@
  */
 
 import React from 'react';
-import type {Node} from 'react';
+import type { Node } from 'react';
 import {
   SafeAreaView,
 } from 'react-native';
-import HomeScreen from './src/screens/Home';
-
+import SearchResultScreen from './src/screens/SearchResults';
 
 const App: () => Node = () => {
-
   return (
     <SafeAreaView >
-      <HomeScreen />
+      <SearchResultScreen />
     </SafeAreaView>
   );
 };
