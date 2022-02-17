@@ -12,11 +12,12 @@ import {
   SafeAreaView,
 } from 'react-native';
 import SearchResultScreen from './src/screens/SearchResults';
-
+import DestinationSearchScreen from './src/screens/DestinationSearch';
 const App: () => Node = () => {
   return (
     <SafeAreaView >
-      <SearchResultScreen />
+      {/* <SearchResultScreen /> */}
+      <DestinationSearchScreen />
     </SafeAreaView>
   );
 };
